@@ -2,6 +2,7 @@ import '../../helpers/mock-clerk';
 import '../../helpers/mock-convex';
 import '../../helpers/mock-router';
 import '../../helpers/mock-misc';
+import '../../helpers/mock-bottom-sheet';
 
 import { render, screen } from '@testing-library/react-native';
 import React from 'react';

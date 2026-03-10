@@ -12,12 +12,24 @@ jest.mock('react-native-safe-area-context', () => {
 // Mock @hugeicons
 jest.mock('@hugeicons/core-free-icons', () => ({
   Home01Icon: 'Home01Icon',
+  Home09Icon: 'Home09Icon',
   Settings01Icon: 'Settings01Icon',
   Notification03Icon: 'Notification03Icon',
   Logout01Icon: 'Logout01Icon',
   Mail01Icon: 'Mail01Icon',
   UserIcon: 'UserIcon',
   Edit01Icon: 'Edit01Icon',
+  Add01Icon: 'Add01Icon',
+  Delete02Icon: 'Delete02Icon',
+  FolderOpenIcon: 'FolderOpenIcon',
+  Menu01Icon: 'Menu01Icon',
+  ArrowLeft01Icon: 'ArrowLeft01Icon',
+  Tag01Icon: 'Tag01Icon',
+  StarIcon: 'StarIcon',
+  ShoppingBag02Icon: 'ShoppingBag02Icon',
+  CheckmarkCircle02Icon: 'CheckmarkCircle02Icon',
+  DocumentDownloadIcon: 'DocumentDownloadIcon',
+  PencilEdit01Icon: 'PencilEdit01Icon',
 }));
 
 jest.mock('@/components/ui/icon', () => ({

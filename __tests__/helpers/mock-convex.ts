@@ -22,5 +22,31 @@ jest.mock('@/convex/_generated/api', () => ({
     emails: {
       send: 'emails:send',
     },
+    groups: {
+      list: 'groups:list',
+      get: 'groups:get',
+      create: 'groups:create',
+      remove: 'groups:remove',
+      update: 'groups:update',
+    },
+    items: {
+      listByGroup: 'items:listByGroup',
+      listAll: 'items:listAll',
+      create: 'items:create',
+      update: 'items:update',
+      remove: 'items:remove',
+    },
+    buckets: {
+      list: 'buckets:list',
+      create: 'buckets:create',
+      remove: 'buckets:remove',
+      update: 'buckets:update',
+    },
+    wishes: {
+      list: 'wishes:list',
+      create: 'wishes:create',
+      update: 'wishes:update',
+      remove: 'wishes:remove',
+    },
   },
 }));
