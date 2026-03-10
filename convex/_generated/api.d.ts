@@ -8,8 +8,12 @@
  * @module
  */
 
+import type * as buckets from "../buckets.js";
 import type * as emails from "../emails.js";
+import type * as groups from "../groups.js";
+import type * as items from "../items.js";
 import type * as users from "../users.js";
+import type * as wishes from "../wishes.js";
 
 import type {
   ApiFromModules,
@@ -18,8 +22,12 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  buckets: typeof buckets;
   emails: typeof emails;
+  groups: typeof groups;
+  items: typeof items;
   users: typeof users;
+  wishes: typeof wishes;
 }>;
 
 /**
